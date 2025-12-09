@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 135, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.login-box {
+    text-align: center;
+}
+
+   .logo{
+    width: 350px;
+    margin-top: -40px;
+
+}
+
+
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.field {
+    width: 400px;           /* mesmo tamanho do input */
+    margin: 25px auto;      /* centraliza tudo */
+    text-align: left;       /* mantém label alinhado ao input */
+}
+
+.field label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.field input {
+    width: 100%;            /* agora acompanha o tamanho da .field */
+    padding: 12px 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.field input:focus {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: white;
+    box-shadow: 0 0 10px rgba(255,255,255,0.6);
+}
+
+.fiel input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    }
+
+
+
+
+button {
+    width: 170px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(209, 92, 28);
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 188, 146);
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+}
+
+button:active {
+    transform: scale(0.96);
+}
