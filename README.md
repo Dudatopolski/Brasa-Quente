@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="/tela-de-login/img/logo.png" alt="Logo Brasa Quente" width="120">
+   ![Logo do Brasa Quente](./img/logo.png)
 </p>
 
 <h1 align="center">🍖 Brasa Quente</h1>
@@ -115,8 +115,7 @@ brasa-quente-site/
 
 ---
 
-<h2> ## 📄 Licença </h2>
-
+<h1 align="center">📄 Licença</h1>
 <p align="center">
 <strong>Projeto Público desenvolvido exclusivamente para fins de estudo e portfólio.</strong><br/>
   O nome, identidade visual e marca Brasa Quente são utilizados apenas para fins de simulação, sem qualquer vínculo comercial.
