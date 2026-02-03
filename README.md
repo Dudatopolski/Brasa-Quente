@@ -6,7 +6,7 @@ Este repositório contém o protótipo de um site institucional e funcional para
 O projeto foca em UX, navegação intuitiva e fluxos comuns de um site comercial, como autenticação de usuários, reservas de mesa e visualização de cardápio.
 
 
-🎯 # Objetivo do Projeto
+🎯 **Objetivo do Projeto**
 
 Simular um site completo de uma churrascaria moderna
 
@@ -20,47 +20,57 @@ Criar um projeto atrativo para portfólio profissional
 
 
 
-🍖 #Funcionalidades Simuladas
-
-⚠️ #Este projeto é um protótipo funcional.
+🍖 **Funcionalidades Simuladas**
+⚠️ *Este projeto é um protótipo funcional.*
 Algumas funcionalidades são simuladas apenas no front-end, sem persistência real de dados.
 
 
-🔐 #Autenticação
+🔐 **Autenticação**
+
 - Tela de login
 - Tela de cadastro de usuário
 - Fluxo de “esqueci minha senha” (simulado)
 - Validação visual de campos
 
 
-📅 #Reservas de Mesa
+📅 **Reservas de Mesa**
 Formulário para reserva
-
 Seleção de:
 Data, Horário, Quantidade de pessoas e Feedback visual de confirmação (simulado)
 
 
-📖 #Cardápio
-Cardápio organizado por categorias:
 
+📖 **Cardápio**
+Cardápio organizado por categorias:
 Carnes contendo cards com imagens, descrição e preço, com o seu layout sendo responsivo.
 
 
-🏠 #Sobre a Casa
+
+🏠 **Sobre a Casa**
 Cards informativos apresentando:
+Ambiente
 
-- Ambiente
-- Diferenciais da casa
-- Conteúdo institucional para fortalecer a marca
+Diferenciais da casa
 
-🛠️ #Tecnologias Utilizadas
+Conteúdo institucional para fortalecer a marca
+
+
+
+🛠️ **Tecnologias Utilizadas**
 Front-end
+
 HTML5
+
 CSS3
+
 JavaScript
+
 Bootstrap 5
 
-# Conceitos Aplicados:
+
+
+🧱 **Conceitos Aplicados**:
+
 UX/UI
 
 Componentização visual
@@ -72,7 +82,8 @@ Simulação de estados (logado / não logado)
 Design responsivo
 
 
-📁 #Estrutura do Projeto
+
+📁 **Estrutura do Projeto**
 
 brasa-quente-site/
 │
@@ -132,17 +143,15 @@ brasa-quente-site/
         └── banner.jpg
         
 
-⚙️ #Como Executar o Projeto
-Faça o clone do repositório:
-
-git clone https://github.com/seu-usuario/brasa-quente
+⚙️ **Como Executar o Projeto**
+Faça o clone do repositório: git clone https://github.com/seu-usuario/brasa-quente
 
 Abra o arquivo index.html no navegador
 ou utilize uma extensão como Live Server no VS Code.
 
 
 
-📌 #Possíveis Evoluções do Projeto
+📌 **Possíveis Evoluções do Projeto**
 
 Integração com back-end (PHP, Node ou Firebase)
 
@@ -158,7 +167,7 @@ Banco de dados para cardápio dinâmico
 
 
 
-📄 #Licença
+📄 **Licença**
 
 Projeto público exclusivamente para fins de estudo e portfólio.
 Nome, identidade e marca Brasa Quente utilizados apenas para simulação.
