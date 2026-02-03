@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="tela-de-login/img/logo.png" alt="Logo Brasa Quente" width="120">
+   <img src="../../tela-de-login/img/logo.png" alt="Logo Brasa Quente" width="120">
 </p>
 
 <h1 align="center">🍖 Brasa Quente</h1>
