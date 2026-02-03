@@ -1,5 +1,5 @@
 <p align="center">
-       ![Logo do Brasa Quente](tela-de-login/img/logo.png)
+ ![Logo do Brasa Quente](Brasa%20Quente%20Site/tela-de-login/img/logo.png)
 </p>
 
 <h1 align="center">🍖 Brasa Quente</h1>
