@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Dudatopolski/Brasa-Quente/blob/main/Brasa%20Quente%20Site/tela-de-login/img/logo.png" width="220px"> </p>
+<img src="https://github.com/Dudatopolski/Brasa-Quente/blob/main/Brasa%20Quente%20Site/tela-de-login/img/Logo-BRASA%20.png width="180px"> </p>
 
 <h1 align="center">🍖 Brasa Quente</h1>
 
