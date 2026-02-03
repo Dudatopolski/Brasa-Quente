@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/img/logo.png" alt="Brasa Quente Logo" width="120"/>
+  <img src="/img/logo.png" alt="Brasa Quente Logo" width="120"/>
 </p>
 
 <h1 align="center">🍖 Brasa Quente</h1>
