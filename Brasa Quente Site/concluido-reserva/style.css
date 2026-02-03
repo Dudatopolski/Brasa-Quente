@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background-color: rgb(225, 135, 61);
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+   .logo{
+    width:380px;
+    padding-top:40px;
+
+}
+
+/* Título ou textos */
+p {
+    color: white;
+    text-align: center;
+    font-size: 50px;     /* menor para ficar proporcional */
+    margin-top: 10px;
+}
+
+/* Botão principal */
+button {
+    width: 260px;        /* reduzido para ficar mais proporcional */
+    padding: 16px;
+    margin-top: 30px;
+    background-color: rgb(209, 92, 28);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 188, 146);
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* Ajuste para imagens avulsas */
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Botão "voltar" */
+#voltar-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: rgb(209, 92, 28);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 220px;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+#voltar-button:hover {
+    background-color: rgb(255, 188, 146);
+}
+
+.container {
+    margin-top: -40px;
+}
+

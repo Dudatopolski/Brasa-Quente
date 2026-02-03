@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Cinetec</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>  
+
+        <nav class="nav-top">
+    <a href="../tela-inicial/index.html">VOLTAR</a>
+  </nav>
+
+  <div class="main">
+    <div class="content-login">
+        <img src="./img/logo.png" class = "logo churrascaria restaurante (2).png">
+      
+
+      <form class="form-login" onsubmit="login(event)">
+
+        <p>
+          <label for="email-input">Email:</label>
+          <input id="email-input" type="email" placeholder="seu_nome@mail.com" required>
+        </p>
+        <p>
+          <label for="senha-input">Senha:</label>
+          <input id="senha-input" type="password" placeholder="Digite sua senha" required>
+        </p>
+
+        <button id="login-button" type="submit">Login</button>
+      </form>
+
+      <p>Não tem conta? <a href="../tela-de-cadastro/index.html"> Cadastre-se</a></p>
+      
+      <p> <a href="../email/index.html"> Esqueci minha senha </a></p>
+
+    </div>
+  </div>
+</body>
+</html>

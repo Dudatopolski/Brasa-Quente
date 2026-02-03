@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Não sou Cadastrado</title>
+    <link rel="stylesheet" href="style.css">
+  <script defer src="./jss/script.js"></script>
+</head>
+<body>
+    <img src="../tela-de-login/img/logo.png" class="logo">
+
+   <form class="form-login" onsubmit="return cadastrar(event)">
+    <p>
+      <label for="nome-input">Nome:</label>
+      <input id="nome-input" type="text" placeholder="Insira seu nome" required>
+    </p>
+
+    <p>
+      <label for="cpf-input">CPF:</label>
+      <input id="cpf-input" type="text" placeholder="000.000.000-00" required>
+    </p>
+
+    <p>
+      <label for="email-input">Email:</label>
+      <input id="email-input" type="email" placeholder="seunome@gmail.com" required>
+    </p>
+
+    <div class="botoes">
+      <button type="submit" id="login-button">Cadastrar</button>
+    </div>
+  </form>
+
+  <script>
+    function cadastrar(event) {
+      event.preventDefault(); 
+      
+      window.location.href = "../concluido/index.html";
+      return false;
+    }
+  </script>
+</body>
+</html>
