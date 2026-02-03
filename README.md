@@ -61,7 +61,7 @@ O projeto foi pensado para demonstrar **organização**, **experiência do usuá
 ## 🛠️ Tecnologias Utilizadas
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,git,github" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,github," />
 </p>
 
 - HTML5  
