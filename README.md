@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="tela-inicial/img/logo.png" alt="Brasa Quente Logo" width="120"/>
+  <img src="../tela-inicial/img/logo.png" alt="Brasa Quente Logo" width="120"/>
 </p>
 
 <h1 align="center">🍖 Brasa Quente</h1>
@@ -101,3 +101,27 @@ brasa-quente-site/
 │
 └── assets/
     └── img/
+```
+--- 
+ 
+## 🔮 Próximas Evoluções do Projeto
+
+-Integração com back-end (Node, PHP ou Firebase)
+-Sistema real de autenticação
+-Painel administrativo para gerenciamento de reservas
+-Confirmação de reserva por e-mail
+-Integração com WhatsApp
+-Banco de dados dinâmico para o cardápio
+
+---
+
+<h2> ## 📄 Licença </h2>
+
+<p align="center">
+<strong>Projeto Público desenvolvido exclusivamente para fins de estudo e portfólio.</strong><br/>
+  O nome, identidade visual e marca Brasa Quente são utilizados apenas para fins de simulação, sem qualquer vínculo comercial.
+</p>
+
+<p align="center"> Desenvolvido com ❤️ para aprendizado e evolução profissional </p> ```
+
+
