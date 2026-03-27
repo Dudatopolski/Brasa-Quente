@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0872e 0%, #b85c1a 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../tela-inicial/img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.success-box {
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* ANIMAÇÃO DO CHECKMARK */
+.checkmark {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+}
+
+.checkmark-circle {
+    stroke: #4caf50;
+    stroke-width: 4;
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+    stroke: #4caf50;
+    stroke-width: 4;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.success-box h1 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.success-box .sub {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.info-cadastro {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.cadastro-info p {
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.mensagem {
+    color: #ffa559;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+.mensagem-destaque {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.85rem;
+    margin: 0.5rem 0;
+    line-height: 1.4;
+}
+
+.redirecionamento {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #e0872e 0%, #b85c1a 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-voltar:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* BALÕES */
+#baloes-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.balao {
+    position: absolute;
+    bottom: -100px;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: subirBalao linear forwards;
+    opacity: 0.9;
+}
+
+.balao::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.fio {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.brilho {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 20%;
+    height: 20%;
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 80%);
+    border-radius: 50%;
+}
+
+@keyframes subirBalao {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-120vh) rotate(20deg);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 480px) {
+    .success-box {
+        padding: 1.5rem;
+        max-width: 320px;
+    }
+    
+    .checkmark {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .success-box h1 {
+        font-size: 1.4rem;
+    }
+    
+    .success-box .sub {
+        font-size: 0.85rem;
+    }
+    
+    .mensagem {
+        font-size: 0.8rem;
+    }
+    
+    .mensagem-destaque {
+        font-size: 0.75rem;
+    }
+    
+    .redirecionamento {
+        font-size: 0.7rem;
+    }
+    
+    .btn-voltar {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+}
+
+/* PARA TELAS MUITO PEQUENAS */
+@media (max-height: 600px) {
+    .success-box {
+        padding: 1rem;
+    }
+    
+    .checkmark {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0.8rem;
+    }
+    
+    .success-box h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    .success-box .sub {
+        margin-bottom: 0.8rem;
+    }
+    
+    .info-cadastro {
+        margin: 0.5rem 0;
+        padding: 0.8rem;
+    }
+    
+    .mensagem {
+        margin: 0.3rem 0;
+    }
+}

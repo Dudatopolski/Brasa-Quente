@@ -1,0 +1,157 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FUNDO */
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1558030006-450675393462") center/cover no-repeat;
+}
+
+/* OVERLAY ESCURO */
+.bg-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.75);
+  z-index: 0;
+}
+
+/* BOTÃO VOLTAR */
+.nav-top {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+.nav-top a {
+  color: white;
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav-top a:hover {
+  background: #ff7b00;
+}
+
+/* CONTAINER CENTRAL */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* CAIXA LOGIN */
+.login-box {
+  background: rgba(20, 20, 20, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
+
+/* LOGO */
+.logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+/* TITULO */
+.login-box h2 {
+  color: #ff7b00;
+  margin-bottom: 5px;
+}
+
+.sub {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+/* INPUT GROUP */
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+/* INPUT */
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 5px;
+
+  background: rgba(255,255,255,0.1);
+  color: white;
+  outline: none;
+}
+
+.input-group input:focus {
+  border: 1px solid #ff7b00;
+  box-shadow: 0 0 10px rgba(255,123,0,0.5);
+}
+
+/* BOTÃO */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+
+  background: #ff7b00;
+  border: none;
+  border-radius: 10px;
+
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff9a3c;
+  transform: translateY(-2px);
+}
+
+/* LINKS */
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.links a {
+  color: #ff7b00;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media (max-width: 500px) {
+  .login-box {
+    width: 90%;
+  }
+}

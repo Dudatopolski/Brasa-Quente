@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio | Brasa Quente</title>
+    <link rel="icon" href="../tela-de-login/img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="nav-top">
+        <a href="../tela-inicial/index.html" class="btn-voltar">← Voltar</a>
+        <div class="nav-links">
+            <a href="../reservas/reserva.html" class="nav-link">Reservar Mesa</a>
+            <a href="../tela-de-login/index.html" class="nav-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="bg-overlay"></div>
+
+    <div class="container">
+        <header class="cardapio-header">
+            <img src="../tela-de-login/img/logo.png" alt="Brasa Quente" class="logo">
+            <h1>Nosso Cardápio</h1>
+            <p class="subtitle">Sabores que aquecem a alma</p>
+        </header>
+
+        <div class="categorias">
+            <button class="categoria-btn active" data-categoria="todos">Todos</button>
+            <button class="categoria-btn" data-categoria="carnes">🥩 Carnes</button>
+            <button class="categoria-btn" data-categoria="acompanhamentos">🍚 Acompanhamentos</button>
+            <button class="categoria-btn" data-categoria="bebidas">🥤 Bebidas</button>
+            <button class="categoria-btn" data-categoria="sobremesas">🍰 Sobremesas</button>
+        </div>
+
+        <div class="cardapio-grid" id="cardapio-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

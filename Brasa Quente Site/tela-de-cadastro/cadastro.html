@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../tela-de-login/img/logo.png">
+  <title>Cadastro | Brasa Quente</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BOTÃO VOLTAR -->
+  <nav class="nav-top">
+    <a href="../tela-inicial/index.html">← Voltar</a>
+  </nav>
+
+  <!-- FUNDO COM OVERLAY -->
+  <div class="bg-overlay"></div>
+
+  <!-- CONTAINER LOGIN -->
+  <div class="login-container">
+
+    <div class="login-box">
+
+      <!-- LOGO -->
+      <img src="../tela-de-login/img/logo.png" class="logo">
+
+      <h2>Bem-vindo</h2>
+      <p class="sub">Cadastre-se Agora!</p>
+
+      <form onsubmit="cadastrar(event)">
+
+  <div class="input-group">
+    <label>Nome</label>
+    <input id="nome" type="text" placeholder="Seu nome" required>
+  </div>
+
+  <div class="input-group">
+    <label>Email</label>
+    <input id="email" type="email" placeholder="seu_email@email.com" required>
+  </div>
+
+  <div class="input-group">
+    <label>CPF</label>
+    <input id="cpf" type="text" placeholder="000.000.000-00" required>
+  </div>
+
+  <div class="input-group">
+    <label>Senha</label>
+    <input id="password" type="password" placeholder="Digite sua senha" required>
+  </div>
+
+  <button type="submit">Cadastrar</button> 
+
+</form>
+
+     
+
+    </div>
+
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>

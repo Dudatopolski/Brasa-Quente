@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Mesa | Brasa Quente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../tela-de-login/img/logo.png">
+</head>
+<body>
+
+    <div class="container">
+        <div class="login-box">
+
+            <img src="../tela-de-login/img/logo.png" class="logo" alt="Brasa Quente Logo">
+            
+            <h2>Reserve sua Mesa</h2>
+            <p class="sub">Garanta seu lugar na Brasa Quente</p>
+
+            <form class="form-login" id="formReserva">
+
+                <div class="field">
+                    <label for="qtd">👥 Quantas Pessoas</label>
+                    <input type="number" id="qtd" name="qtd" placeholder="Ex: 4" min="1" max="20" required>
+                </div>
+
+                <div class="field">
+                    <label for="hora">⏰ Horário</label>
+                    <input type="time" id="hora" name="hora" required>
+                </div>
+
+                <div class="field">
+                    <label for="data">📅 Dia da Reserva</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+
+                <button type="submit">Finalizar Reserva</button>
+                
+                <a href="../tela-inicial/index.html" class="back-link">← Voltar para o início</a>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script-reserva.js"></script>
+</body>
+</html>
