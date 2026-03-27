@@ -1,9 +1,9 @@
-<p alignt="center">
+<p align="center">
 <img src="https://github.com/Dudatopolski/Brasa-Quente/blob/main/Brasa%20Quente%20Site/tela-de-login/img/brasa-quente.png" width="180px"> </p>
 
-<h1 alignt="center">🍖 Brasa Quente</h1>
+<h1 align="center">🍖 Brasa Quente</h1>
 
-<p alignt="center">
+<p align="center">
   <strong>Protótipo de Website para Churrascaria</strong><br/>
   Projeto desenvolvido para estudo e portfólio
 </p>
